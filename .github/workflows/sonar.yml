@@ -40,6 +40,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn sonar:sonar \
-          -Dsonar.projectKey=hettiarachchihtv214077j \
-          -Dsonar.organization=YOUR_ORG_KEY \
+          -Dsonar.projectKey=hettiarachchihtv214077j_lab02 \
+          -Dsonar.organization=hettiarachchihtv214077j \
           -Dsonar.host.url=https://sonarcloud.io
