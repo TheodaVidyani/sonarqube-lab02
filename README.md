@@ -10,7 +10,7 @@ It is used to demonstrate how **static code analysis** and **quality gates** wor
 The goal of this lab is to help students understand:
 - Why code quality matters
 - How CI/CD pipelines react to code changes
-- How SonarCloud identifies bugs, vulnerabilities, and code smells
+- How SonarCloud identifies bugs, vulnerabilities, and code smells 
 
 ---
 
