@@ -1,3 +1,7 @@
+package main.java.com.example;
+
+public class Calculator {
+
 // EVEN WORSE: longer, more complex, duplicated logic
 public int calculate(int a, int b, String op) {
 if(op.equals("add")) {
@@ -28,7 +32,5 @@ return result;
 return 0;
 }
 }
-// INTENTIONAL DUPLICATION
-public int addAgain(int a, int b) {
-return a + b;
+
 }
